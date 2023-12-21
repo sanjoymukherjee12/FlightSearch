@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
+
+
+
+.box {
+  width: 80%;
+  /* height: 500px; */
+  padding: 50px 60px;
+  background-color: rgba(255, 255, 255, 0.073);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(185, 188, 191);
+  gap: 20px;
+}
+.box input {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px solid gray;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  padding: 8px 10px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  border-radius: 55px;
+  flex-direction: column;
+}
+
+.trips{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    gap: 30px;
+}
+.trip{
+    border-radius: 25px;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: transparent;
+    color: white;
+    border: 1px solid rgb(82, 80, 80);
+}
+.box {
+    border-radius: 10px;
+  box-shadow: 1px 7px 13px 5px rgba(27, 12, 12, 0.75);
+  -webkit-box-shadow: 1px 7px 13px 5px rgba(27, 12, 12, 0.75);
+  -moz-box-shadow: 1px 7px 13px 5px rgba(27, 12, 12, 0.75);
+}
+label{
+    font-weight: 700;
+}
+.ex{
+    font-size: 35px;
+    margin-top: 30px;
+    color: white;
+}
+
+.form-btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn2{
+    padding: 8px 24px;
+    border-radius: 8px;
+    background-color: rgb(7, 220, 220);
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+.form-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.one{
+    font-weight: 700;
+    background-color: rgba(17, 18, 19, 0.464);
+}
+
+.pref{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.pref label{
+    margin-right: 165px;
+
+}
+
+.pref select{
+    color: white;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 18rem;
+    margin-top: 8px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.mini.pref select {
+    background-color: rgb(27, 26, 26);
+    color: white; 
+  }
+
+
+.pass-eye{
+    position: absolute;
+    top: 57%;
+    left: 90%;
+
+}
+.form-control:focus{
+    color: white;
+    background-color: transparent;
+
+}
+
+.disabled1{
+    color: black;
+}
+
+.enable1{
+    color:  rgb(7, 220, 220);
+}
+
+.error{
+    color: rgb(176, 3, 3);
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.po{
+    margin: 10px 0;
+}
+.sec{
+    position: relative;
+}
+
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    align-items: center;
+}
+
+.mini{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.inputL{
+    width: 300px;
+}
+
+.loc{
+    font-size: 18px;
+    position: absolute;
+    margin-top: 28px;
+    margin-right: 10px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.nav button{
+    height: 40px;
+    width: 100px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+
+@media(max-width:1300px){
+    
+    .box {
+        width: 100%;
+        height: 100%;
+        padding: 10px 60px;
+        background-color: rgba(255, 255, 255, 0.073);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .all{
+        display: flex;
+        flex-wrap: wrap;
+        /* align-items: center; */
+        flex-direction: column;
+        gap: 0;
+    }
+    .trips{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -0px;
+        gap: 10px;
+    }
+    .trip{
+        border-radius: 25px;
+        margin-top: 20px;
+        padding: 12px 30px;
+    }
+}
+
+@media(max-width:700px){
+    .trips{
+        margin-left: -0px;
+        gap: 5px;
+    }
+    .trip{
+        border-radius: 25px;
+        margin-top: 20px;
+        padding: 12px 30px;
+    }
+
+}
